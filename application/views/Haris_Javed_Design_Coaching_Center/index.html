@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Coaching Center - Haris</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="myStyle.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+
+
+
+
+
+
+<body>
+
+
+<!--   HEADER  -->
+
+
+<div>
+
+
+  <div class="jumbotron text-center header">
+    <h1>Coaching Center</h1>
+	<p>We Build Students Who Lead The World</p>
+  </div>
+  
+  <a href ="login.html" id = "login" class = "btn">Login </a>
+  
+</div>
+
+
+
+<!-- SIDE MENU -->
+
+<div class = 'row'>
+
+<div class = 'col-sm-2'>
+
+
+
+<nav>
+
+	
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul  class="nav nav-pills nav-stacked">
+        <li><a class = 'menu' href="#"><span class="glyphicon glyphicon-home"></span></a></li>
+        <li><a class = 'menu' href="#">Courses</a></li>
+        <li><a class = 'menu' href="#">Classes</a></li>
+        <li><a class = 'menu' href="#">Faculty</a></li>
+        <li><a class = 'menu' href="#">Students</a></li>
+      </ul>
+    </div>
+ 
+</nav>
+
+
+
+
+</div>
+
+
+<!-- PROMOTIONAL PANEL / FEATURE PANEL -->
+
+<div  class  ='col-sm-10'>
+
+	<div id = 'proPanel'>
+
+	  
+  <div id="myCarousel" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li class="item1 active"></li>
+      <li class="item2"></li>
+      <li class="item3"></li>
+      <li class="item4"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active" height="200px">
+        <img src="billgates.jpg" alt="Chania"  height="200px">
+		<div class = 'TextOverImage jumbotron'>
+			<p>
+				We always prefers to hire this Coaching Center students because of its <b>High Quality Education</b>
+			</p>
+			<small>Bill Gates - CEO Microsoft</small>
+		</div>
+		</img>
+      </div>
+
+      <div class="item" height="200px">
+        <img src="building.jpg" alt="Chania"  height="200px" >
+		<div class = 'TextOverImage jumbotron'>
+			<h1>
+				World Biggest Acadmic Building
+			</h1>
+			<small>Falah-O-Behbood Trust</small>
+		</div>
+		</img>
+      </div>
+    
+      <div class="item" height="200px">
+        <img src="library.jpg" alt="Flower"  height="200px">
+			<div class = 'TextOverImage jumbotron'>
+			<h1>
+				Khursheed Memorial Library
+			</h1>
+			<p>Pakistan Biggest Library</p>
+		</div>
+		</img>
+      </div>
+
+      <div class="item" height="200px">
+        <img src="students.jpg" alt="Flower" >
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+	<button id = 'ApplyNow' class = 'btn btn-info'>Apply Now</button>
+  </div>
+  
+  <script>
+$(document).ready(function(){
+    // Activate Carousel
+    $("#myCarousel").carousel({interval: 3000});
+    
+    // Enable Carousel Indicators
+    $(".item1").click(function(){
+        $("#myCarousel").carousel(0);
+    });
+    $(".item2").click(function(){
+        $("#myCarousel").carousel(1);
+    });
+    $(".item3").click(function(){
+        $("#myCarousel").carousel(2);
+    });
+    $(".item4").click(function(){
+        $("#myCarousel").carousel(3);
+    });
+    
+    // Enable Carousel Controls
+    $(".left").click(function(){
+        $("#myCarousel").carousel("prev");
+    });
+    $(".right").click(function(){
+        $("#myCarousel").carousel("next");
+    });
+});
+</script>
+
+	
+	
+
+		
+		
+		
+	</div>
+	
+	
+	<!-- Feature Panel -->
+	
+	<div class = 'container'>
+	
+	<h4>Feature 1</h4>
+	<div>
+	This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla
+	</div>
+	
+	
+	
+	
+	
+ 
+  <div id="featDesc1" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+	 This Feature is This and this feature is bla bla bla. This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla  
+  </div>
+   <button type="button" class="btn" data-toggle="collapse" data-target="#featDesc1">show more</button>
+  
+  	
+	<h4>Feature 2</h4>
+	<div>
+	This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla
+	</div>
+  
+  <div id="featDesc2" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+	 This Feature is This and this feature is bla bla bla. This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla  
+  </div>
+  <button type="button" class="btn" data-toggle="collapse" data-target="#featDesc2">show more</button>
+  
+  
+  	
+	<h4>Feature 3</h4>
+	<div>
+	This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla
+	</div>
+ 
+  <div id="featDesc3" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+	 This Feature is This and this feature is bla bla bla. This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla  
+  </div>
+   <button type="button" class="btn" data-toggle="collapse" data-target="#featDesc3">show more</button>
+  
+  
+  	
+	<h4>Feature 4</h4>
+	<div>
+	This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla
+	</div>
+  
+  <div id="featDesc4" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+	 This Feature is This and this feature is bla bla bla. This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla This Feature is This and this feature is bla bla bla  
+  </div>
+  <button type="button" class="btn" data-toggle="collapse" data-target="#featDesc4">show more</button>
+  
+  </div>
+	
+	
+	
+	
+	
+	
+	
+	
+
+</div>
+
+</div>
+
+
+
+
+<!-- FOOTER -->
+
+
+
+
+
+<footer class = 'footer'>
+
+<div  style = 'text-align : center' class = 'col-sm-4'>
+	<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+	<div class="flipper">
+		<div class="front">
+			<h1 class = 'footerH'><a href = '#' >About Us</a></h1>
+			
+		</div>
+		<div class="back">
+			<h3><a href = '#'>About Us</a></h3>
+			<h3><a href = '#'>History</a></h3>
+			<h3><a href = '#'>Board Of Governers</a></h3>
+			<h3><a href = '#'>Parterns</a></h3>
+		</div>
+	</div>
+</div>
+	
+</div>
+
+<div style = 'text-align : center' class = 'col-sm-4'>
+
+		<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+	<div class="flipper">
+		<div class="front">
+			<h1 class = 'footerH'><a href = '#' >Our Mission</a></h1>
+			
+		</div>
+		<div class="back">
+			<h3><a href = '#'>Our Story</a></h3>
+			<h3><a href = '#'>History</a></h3>
+			<h3><a href = '#'>Board Of Governers</a></h3>
+			<h3><a href = '#'>Parterns</a></h3>
+		</div>
+	</div>
+</div>
+	
+</div>
+
+<div style = 'text-align : center' class = 'col-sm-4'>
+	<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+		<div class="flipper">
+			<div class="front">
+				<h1 class = 'footerH'><a href = '#' >Contact Us</a></h1>
+				
+			</div>
+			<div class="back">
+				
+				<div style = 'color : white'>
+					<H4>+92 - 332 3158178</H4>
+					<H4>M.HARISJAVED487@GMAIL.COM</H4>
+					<H4>A-487, MALIR KALABOARD</H4>
+				</div>
+				<div id="googleMap" style="height:50%;width:50%;margin:auto;"></div>
+				
+				
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+</footer>
+
+
+
+
+
+</body>
+
+
+<!-- Add Google Maps -->
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+var myCenter = new google.maps.LatLng(24.883576, 67.186739);
+
+function initialize() {
+var mapProp = {
+center:myCenter,
+zoom:12,
+scrollwheel:true,
+draggable:true,
+mapTypeId:google.maps.MapTypeId.ROADMAP
+};
+
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker = new google.maps.Marker({
+position:myCenter,
+});
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+</html>
+

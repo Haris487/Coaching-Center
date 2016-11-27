@@ -1,0 +1,379 @@
+@charset "utf-8";
+/*Icons Font-Awesome*/
+@import url("fonts/icons/font-awesome.min.css");
+/*Google font*/
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700");
+ i{	
+	border-radius: 50%;
+	width : 35px;
+	height : 35px;
+	font-size: 12px;
+	padding-top: 12px;
+	text-align: center;
+}
+.header { 
+    background-color: #e9b119;
+    color:black ;
+}
+
+body{
+	
+}
+.menu {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	width: 138px;
+    color: #000000 !important;
+	/*color: #689F38;*/
+	font-family: Sans-serif;
+    font-size: 15px;
+    line-height: 40px;
+	padding: 25px 25px;
+    text-align: center;
+}
+#proPanel {
+	
+
+}
+
+.menu:hover {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    font-family: Sans-serif;
+	font-weight: bold;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.item{
+width = 800px;
+height = 400px;
+
+}
+
+.TextOverImage{
+	position: absolute;
+    top: 10px;
+    left:20px;
+	color:#ffffff;
+	background-color:transparent;
+    width: 200px;
+    height: 1px;
+}
+#login{
+	/*background-color : #8BC34A;*/
+	background-color : #000000;
+
+	position : absolute;
+	right: 20px;
+	top:20px;
+	z-index : 3;
+
+}
+#login_input{
+	/*background-color : #8BC34A;*/
+	background-color : #000000;
+	z-index : 3;
+	color : white;
+	margin-top : 12px;
+
+}
+
+img{
+	display: block;
+ 
+}
+#ApplyNow{
+	position : absolute;
+	left:50px;
+	top : 350px;
+	padding-left : 50px;
+	padding-right : 50px;
+	padding-top : 25px;
+	padding-bottom : 25px;
+	font-size : 200%; 
+
+
+}
+.footer{
+
+ margin-top : 100px;
+ height : 700px;
+
+
+}
+
+a{
+
+
+}
+
+.loginPanel {
+	background-color : #689F38;
+	padding : 25px;
+	position : fixed;
+	top : 20%;
+	left : 20%;
+	border : solid 5px black;
+
+}
+
+#loginText{
+	text-align : center;
+	color:white;
+
+}
+
+#loginBtn{
+	position : relative;
+	left : 50%;
+
+}
+
+.loginField{
+	display : block;
+}
+
+/*Flip card CSS
+*/
+.flip-container {
+	perspective: 1000px;
+}
+
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 100%;
+	height: 100%;
+}
+.mythumbnail{
+	display : block;
+	width  :100%;
+	height : 100%;
+}
+
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+
+.front, .back {
+	backface-visibility: hidden;
+	
+	top: 0;
+	left: 0;
+}
+
+
+.front {
+	background-color : #689F38;
+	z-index: 2;
+
+	transform: rotateY(0deg);
+}
+
+
+.back {
+	position : absolute;
+	transform: rotateY(180deg);
+}
+.flip-container{
+	position : relative;
+
+}
+/*Flip Card End
+*/
+
+#navigation{
+	position : fixed;
+	top : 0px;
+	background-color : transparent;
+	z-index: 8;
+    width: 100%;
+    height : 50px;
+    border: 0px;
+    opacity: 0.8;
+    color: #ffffff !important;
+}
+#myHome #myNavbar{
+	
+}
+#myHome{
+	z-index : 8;
+	position : absolute;
+	top:10px;
+	left : 25px;
+}
+
+#myNavbar{
+	z-index : 8;
+	top:10px;
+	position : absolute;
+	right : 25px;
+}
+#myCarousel{
+	transform: translateY(-35px);
+
+}
+.main-title{
+	margin : 25px auto;
+	text-align : center;
+	font-size : 6.5em;
+}
+.sub-title{
+	margin : 0 auto;
+	text-align : center;
+
+}
+.teacher{
+	width : 90%;
+	margin : 0 auto;
+	border-radius: 50%;
+	filter: grayscale(100%);
+	border : 1px solid blue;
+	transition : 0.5s all;
+}
+.teacher:hover{
+	filter: grayscale(0%);
+}
+.teacher-name{
+	text-align : center;
+	width : 100%;
+	font-size : 20px;
+	border-radius: 50%;
+}
+#aboutus{
+	margin : 0px;
+	background-color : #E8EAF6;
+}
+.font-contras{
+	color : #e9b119;
+}
+.font-contras2{
+	color : #e9b119;
+}
+.slide-img{
+	width : 100%;
+}
+.tri_down{
+	top:200px;
+	height:0;
+	width:0;
+	border-top:100px solid #000000;
+	border-left:100px solid transparent;
+	border-right:100px solid transparent ;
+	margin : 0 auto;
+	transition : 0.2s all;
+}
+.tri_down:hover{
+	border-top:130px solid #F50057;
+	border-left:130px solid transparent;
+	border-right:130px solid transparent ;
+	cursor : pointer;
+}
+.tri_holder{
+	position:absolute;
+	width:100%;
+	z-index : 2;
+}
+.myfield{
+	    width: 30% !important;
+   		 margin: 0 auto;
+}
+.bold{
+	font-weight : bold;
+}
+.go_down{
+	color : black;
+	transform : translateY(-100px);
+	font-size : 12px !important;
+}
+.thumbnail{
+	width:100%;
+	height:100%;
+}
+.class-name{
+	text-align : center;
+
+}
+.class-back{
+	background-color : #e9b119 !important;
+	height : 100% !important;
+	width : 100% !important;
+}
+.class-back .class-front{
+	border-radius: 30%;
+}
+#classes{
+	background-image : url('res/classes-background.png');
+	margin-top:50px;
+}
+.contact-info{
+	font-size : 1em;
+	position : relative;
+	top : 25px;
+	left : 25px;
+	z-index : 1;
+	transition : 2s all;
+}
+.button-holder{
+	margin-top : 25px;
+	width : 100%;
+
+}
+.button-login{
+	display : inline-block;
+}
+.extra-space{
+	width : 50%;
+}
+.animate{
+	transition : 2s all;
+}
+.forget_pass_hide{
+	width : 0px;
+	font-size : 0px;
+}
+.forget_pass_show{
+	width : 30px;
+	font-size : 12px;
+}
+.tri-right{
+	float :right;
+	height : 0;
+	width : 0;
+	border-top : 28px solid transparent;
+	border-bottom : 28px solid transparent;
+	border-left : 20px solid black;
+	margin-top : auto;
+	margin-bottom : auto;
+}
+.tri-right:hover ~ .forget_pass {
+    width : 50px;
+	font-size : 12px;
+}
+
+.btn-login{
+	margin : 0;
+}
+#contact-map{
+	z-index:-1;
+	position:relative;
+	top:0;
+	left:0;
+}
+.caption{
+	font-size : 25px;
+	text-align : center;
+}
+#myForm{
+	padding-top : 150px;
+	padding-bottom : 50px;
+
+}

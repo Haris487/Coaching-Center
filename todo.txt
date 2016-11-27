@@ -1,0 +1,5 @@
+Remove Bugs From Staff
+Create "Insert Update Delete Select" Functionality for all Entities
+Schedule Time Table
+Attendance For Teacher
+Picture Uploads and View

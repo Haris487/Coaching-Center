@@ -1,0 +1,172 @@
+
+.header { 
+    background-color: #689F38;
+    color: #ffffff;
+	
+}
+.menu {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #689F38;
+	font-family: Sans-serif;
+    font-size: 15px;
+    height: 40px;
+    width: 100px;
+    line-height: 40px;
+	padding: 25px 25px;
+    text-align: center;
+}
+#proPanel {
+	margin-bottom: 50px;
+	
+
+}
+
+.menu:hover {
+    background: #428BCA;
+    color: #ffffff;
+    font-family: Sans-serif;
+	font-weight: bold;
+    font-size: 20px;
+    height: 60px;
+    width: 150px;
+    line-height: 60px;
+    text-align: center;
+    border: 0;
+    transition: all 0.3s ease 0s;
+}
+.item{
+width = 800px;
+height = 400px;
+
+}
+
+.TextOverImage{
+	position: absolute;
+    top: 10px;
+    left:20px;
+	color:#ffffff;
+	background-color:transparent;
+    width: 200px;
+    height: 1px;
+}
+#login{
+	background-color : #8BC34A;
+	position : absolute;
+	right: 20px;
+	top:20px;
+}
+
+img{
+	display: block;
+ 
+}
+#ApplyNow{
+	position : absolute;
+	left:50px;
+	bottom : 50px;
+	padding-left : 50px;
+	padding-right : 50px;
+	padding-top : 25px;
+	padding-bottom : 25px;
+	font-size : 200%; 
+
+
+}
+.footer{
+
+ margin-top : 100px;
+ height : 700px;
+
+
+}
+
+a{
+	color: white;
+
+}
+
+.loginPanel {
+	background-color : #689F38;
+	padding : 25px;
+	position : fixed;
+	top : 20%;
+	left : 20%;
+	border : solid 5px black;
+
+}
+
+#loginText{
+	text-align : center;
+	color:white;
+
+}
+
+#loginBtn{
+	position : relative;
+	left : 50%;
+
+}
+
+.loginField{
+	display : block;
+}
+
+
+/***
+
+/////////// CART FLIP ON FOOTER
+
+
+*/
+
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 320px;
+	height: 480px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	background-color : #689F38;
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	background-color : #0091EA;
+	transform: rotateY(180deg);
+}
+.flip-container{
+	
+
+}
+
+
